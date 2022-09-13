@@ -90,3 +90,7 @@
 
     Download the package from https://jenkins.io/download/ and follow the instructions for your operating system
 
+- open ubuntu 
+-  wget https://raw.githubusercontent.com/wardviaene/jenkins-course/master/scripts/install_jenkins.sh
+-  bash install_jenkins.sh
+    - http://223.236.68.41:8080

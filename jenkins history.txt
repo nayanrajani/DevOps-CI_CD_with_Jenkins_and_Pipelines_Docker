@@ -1,0 +1,86 @@
+1  sudo apt update
+    2  sudo update
+    3  sudo apt update
+    4  sudo apt-get update
+    5  sudo apt update
+    6  sudo apt upgrade
+    7  sudo apt update
+    8  sudo apt upgrade
+    9  clear
+   10  sudo apt install bpython
+   11  sudo apt update
+   12  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+   13  sudo apt update
+   14  sudo apt install bpython
+   15  bpython
+   16  clear
+   17  sudo yum install wget
+   18  sudo apt install wget
+   19  yum install java-1.8.0-openjdk
+   20  sudo apt install yum
+   21  java -version
+   22  sudo apt install openjdk-11-jdk
+   23  java -version
+   24  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+   25  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   26  sudo apt update
+   27  sudo apt install jenkins
+   28  systemctl status Jenkins
+   29  systemctl start jenkins
+   30  systemctl status Jenkins
+   31  sudo systemctl start
+   32  systemctl status Jenkins
+   33  sudo systemctl start
+   34  sudo systemctl start jenkins
+   35  systemctl start jenkins
+   36  systemctl restart jenkins
+   37  systemctl enable service.jenkins
+   38  systemctl enable jenkins
+   39  systemctl start jenkins
+   40  systemctl restart jenkins
+   41  systemctl status Jenkins
+   42  service status jenkins
+   43  sudo service status jenkins
+   44  sudo service start jenkins
+   45  apt-get install runit-systemd
+   46  sudo apt-get install runit-systemd
+   47  sudo service status jenkins
+   48  systemctl status Jenkins
+   49  ps -p 1 -o comm=
+   50  init
+   51  systemctl init
+   52  systemctl status Jenkins
+   53  clear
+   54  sudo -b unshare --pid --fork --mount-proc /lib/systemd/systemd --system-unit=basic.target
+   55  sudo -E nsenter --all -t $(pgrep -xo systemd) runuser -P -l $USER -c "exec $SHELL"
+   56  wsl --shutdown
+   57  sudo apt install wsl
+   58  wsl --shutdown
+   59  systemctl status Jenkins
+   60  sudo apt-get update jenkins
+   61  sudo apt update jenkins
+   62  apt update jenkins
+   63  apt-install update jenkins
+   64  apt-get update jenkins
+   65  apt upgrade jenkins
+   66  sudo systemctl docker start
+   67  sudo systemctl jenkins start
+   68  service ssh start
+   69  sudo apt install jenkins
+   70  sudo systemctl status jenkins
+   71  sudo systemctl start jenkins
+   72  clear
+   73  sudo ufw allow 8080
+   74  sudo ufw status
+   75  sudo ufw enable
+   76  sudo ufw status
+   77  sudo systemctl start jenkins
+   78  sudo systemctl status jenkins
+   79  sudo systemctl start jenkins
+   80  sudo systemctl status jenkins
+   81  sudo ufw status
+   82  sudo systemctl start jenkins
+   83  systemctl status jenkins.service
+   84  sudo systemctl stop jenkins
+   85  sudo systemctl stop jenkins.service
+   86  systemctl status jenkins.service
